@@ -1,0 +1,63 @@
+body * {
+    color: aqua;
+}
+
+
+text, .text {
+    fill: aqua !important;
+}
+
+.v-card, .v-window-item, .v-slide-group__wrapper, .v-slide-group__prev, .v-slide-group__next, .v-icon, .v-btn, .v-list, .v-window, .v-card__text * {
+    background-color: #222 !important; 
+}
+
+.v-chip {
+    background-color: black !important;
+}
+
+.v-chip:hover {
+    background-color: #4f4f4f !important;
+}
+
+.v-icon::before {
+    color: aqua !important;
+}
+
+.v-input__slot::before, .v-input__slot::after {
+    color: aqua !important;
+    fill: aqua !important;
+    border-color: orange !important;
+}
+
+#dashboard, .v-main__wrap, .v-data-table {
+    background-color: #000029 !important;
+}
+
+.highcharts-tooltip text {
+   color: black;
+    fill: black !important;
+}
+
+.v-card__title {
+    color: #05ff00 !important;
+}
+
+.v-tab, .v-label, .v-card__actions * {
+    color: aqua !important;
+}
+
+.v-carousel__item * {
+    color: aqua !important;
+}
+
+.v-list-item__subtitle, .v-card__subtitle {
+    color: lightgreen !important;
+}
+
+.theme--light.v-application .text--secondary {
+    color: lightgreen !important;
+}
+
+input {
+    color: aqua !important;
+}
