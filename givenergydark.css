@@ -61,3 +61,12 @@ text, .text {
 input {
     color: aqua !important;
 }
+
+.cls-1 {
+    background-color: black !important;
+    fill: black !important;
+}
+
+svg g g ellipse {
+     fill: black !important;
+}
