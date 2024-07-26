@@ -1,5 +1,6 @@
 body * {
     color: aqua;
+    border-color: orange !important;
 }
 
 
@@ -7,7 +8,7 @@ text, .text {
     fill: aqua !important;
 }
 
-.v-card, .v-window-item, .v-slide-group__wrapper, .v-slide-group__prev, .v-slide-group__next, .v-icon, .v-btn, .v-list, .v-window, .v-card__text * {
+.v-card, .v-window-item, .v-slide-group__wrapper, .v-slide-group__prev, .v-slide-group__next, .v-icon, .v-btn, .v-list, .v-window, .v-expansion-panels * {
     background-color: #222 !important; 
 }
 
@@ -38,7 +39,7 @@ text, .text {
     fill: black !important;
 }
 
-.v-card__title {
+.v-card__title, .color-secondary {
     color: #05ff00 !important;
 }
 
@@ -69,4 +70,12 @@ input {
 
 svg g g ellipse {
      fill: black !important;
+}
+
+tr:hover {
+    background-color: aqua !important;
+}
+
+tr:hover * {
+    color: #000029;
 }
