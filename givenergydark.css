@@ -8,20 +8,23 @@
 ==/UserStyle== */
 
 @-moz-document domain("givenergy.cloud") {
+/* Text and border colour of everything */
 body * {
     color: aqua;
     border-color: orange !important;
 }
 
-
+/* Aimed at the highcharts labels */
 text, .text {
     fill: aqua !important;
 }
 
+/* Generally make stuff dark */
 .v-card, .v-window-item, .v-slide-group__wrapper, .v-slide-group__prev, .v-slide-group__next, .v-icon, .v-btn, .v-list, .v-window, .v-expansion-panels * {
     background-color: #222 !important; 
 }
 
+/* Aimed at highcharts chips, affects other stuff as well */
 .v-chip {
     background-color: black !important;
 }
