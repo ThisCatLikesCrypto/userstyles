@@ -8,25 +8,30 @@
 ==/UserStyle== */
 
 @-moz-document domain("givenergy.cloud") {
-/* Text and border colour of everything */
 body * {
     color: aqua;
     border-color: orange !important;
 }
 
-/* Aimed at the highcharts labels */
+
 text, .text {
     fill: aqua !important;
 }
 
-/* Generally make stuff dark */
-.v-card, .v-window-item, .v-slide-group__wrapper, .v-slide-group__prev, .v-slide-group__next, .v-icon, .v-btn, .v-list, .v-window, .v-expansion-panels * {
+.v-card, .v-window-item, .v-slide-group__wrapper, .v-slide-group__prev, .v-slide-group__next, .v-icon, .v-btn, .v-list, .v-window, .v-expansion-panels *, .v-input__control {
     background-color: #222 !important; 
 }
 
-/* Aimed at highcharts chips, affects other stuff as well */
-.v-chip {
+.v-chip, .v-banner, .v-banner__wrapper, .v-banner__content, .v-banner__actions {
     background-color: black !important;
+}
+
+.v-card.transparent > .v-card__text {
+    color: aqua !important;
+}
+
+:root {
+    --v-primary-base: #4f4f4f;
 }
 
 .v-chip:hover {
@@ -50,6 +55,10 @@ text, .text {
 .highcharts-tooltip text {
    color: black;
     fill: black !important;
+}
+
+.highcharts-background {
+    fill: #222 !important;
 }
 
 .v-card__title, .color-secondary {
@@ -92,5 +101,17 @@ tr:hover {
 tr:hover * {
     color: #000029;
 }
-    
+
+.content {
+    background-color: #000029;
+}
+
+.content p, .content aside {
+    text-shadow: none;
+}
+
+aside {
+    background-color: #222 !important;
+}
+
 }
